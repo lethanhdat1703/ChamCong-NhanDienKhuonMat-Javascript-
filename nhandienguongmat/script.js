@@ -1,5 +1,5 @@
 const video = document.getElementById("video");
-const model = [];
+
 Promise.all([
   faceapi.nets.ssdMobilenetv1.loadFromUri("/models"),
   faceapi.nets.tinyFaceDetector.loadFromUri("/models"),
@@ -7,15 +7,48 @@ Promise.all([
   faceapi.nets.faceRecognitionNet.loadFromUri("/models"),
   faceapi.nets.faceExpressionNet.loadFromUri("/models"),
   faceapi.nets.ageGenderNet.loadFromUri("/models"),
+
 ]).then(startVideo);
 
 function startVideo() {
   navigator.getUserMedia(
     { video: {} },
-    (stream) => (video.srcObject = stream),
+    (stream) => {video.srcObject = stream;
+      detectObjects();
+    },
     (err) => console.error(err)
   );
+  
+  
 }
+function detectObjects() {
+  const detector = ml5.objectDetector('cocossd', () => {
+      console.log('Model is ready');
+      setInterval(() => {
+          detector.detect(video, (err, results) => {
+              if (err) {
+                  console.error(err);
+                  return;
+              }
+              console.log(results);
+              const canvas = faceapi.createCanvasFromMedia(video);
+              const displaySize = { width: video.width, height: video.height };
+              faceapi.matchDimensions(canvas, displaySize);
+              const context = canvas.getContext("2d");
+              results.forEach(object => {
+                const { x, y, width, height } = object;
+                context.strokeStyle = 'rgba(0, 255, 0, 0.5)';
+                context.lineWidth = 4;
+                context.strokeRect(x, y, width, height);
+                context.fontSize = "24";
+                context.fillStyle = "rgba(0, 255, 0, 0.8)";
+                context.fillText(object.label, x + 10, y + 24);
+              });
+          });
+      }, 1000); 
+  });
+}
+
 
 function getLabeledFaceDescriptions() {
   const labels = ["messi", "ronaldo","j97","Dat","NTN Vlog"];
@@ -72,12 +105,25 @@ video.addEventListener("play", async () => {
     const results = resizedDetections.map((d) => {
       return faceMatcher.findBestMatch(d.descriptor);
     });
-    results.forEach((result, i) => {
+    results.forEach((result, i) =>  {
       const box = resizedDetections[i].detection.box;
-      const drawBox = new faceapi.draw.DrawBox(box, {
-        label: result,
-      });
-      drawBox.draw(canvas);
+      let checkedEmployees = {};
+      let drawBox;
+    
+      if(result._label==="unknown"){
+        console.log("Nhân viên chưa có dữ liệu.");
+      }
+      else if (!checkedEmployees[result._label]) {
+        console.log("Nhân viên " + result._label + " đã chấm công");
+        alert("Nhân viên " + result._label + " đã được chấm công rồi.");
+        checkedEmployees[result._label] = true;
+        drawBox = new faceapi.draw.DrawBox(box, {
+            label: result,
+        });
+        drawBox.draw(canvas);
+    }
+   
     });
-  }, 100);
+  
+  }, 300);
 });
