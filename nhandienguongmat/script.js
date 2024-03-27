@@ -9,17 +9,15 @@ Promise.all([
   faceapi.nets.ageGenderNet.loadFromUri("/models"),
 
 ]).then(startVideo);
-
 function startVideo() {
   navigator.getUserMedia(
     { video: {} },
     (stream) => {video.srcObject = stream;
-      detectObjects();
+      //detectObjects();
     },
     (err) => console.error(err)
   );
-  
-  
+
 }
 function detectObjects() {
   const detector = ml5.objectDetector('cocossd', () => {
@@ -50,13 +48,13 @@ function detectObjects() {
 }
 
 
-function getLabeledFaceDescriptions() {
-  const labels = ["messi", "ronaldo","j97","Dat","NTN Vlog"];
+async function getLabeledFaceDescriptions() {
+  const labels = ["messi", "ronaldo","j97","Dat","NTNVlog"];
   return Promise.all(
     labels.map(async (label) => {
       const descriptions = [];
       for (let i = 1; i <= 2; i++) {
-        const img = await faceapi.fetchImage(`./labels/${label}.png`);
+        const img = await faceapi.fetchImage(`/labels/${label}/${i}.png`);
         const detections = await faceapi
           .detectSingleFace(img)
           .withFaceLandmarks()
@@ -68,6 +66,7 @@ function getLabeledFaceDescriptions() {
   );
 }
 
+
 video.addEventListener("play", async () => {
   const labeledFaceDescriptors = await getLabeledFaceDescriptions();
   const faceMatcher = new faceapi.FaceMatcher(labeledFaceDescriptors);
@@ -76,7 +75,7 @@ video.addEventListener("play", async () => {
   const displaySize = { 
     width: video.width,
     height: video.height 
-    };
+  };
   faceapi.matchDimensions(canvas, displaySize);
   setInterval(async () => {
     const detections = await faceapi
@@ -90,7 +89,7 @@ video.addEventListener("play", async () => {
     faceapi.draw.drawDetections(canvas, resizedDetections);
     faceapi.draw.drawFaceLandmarks(canvas, resizedDetections);
     faceapi.draw.drawFaceExpressions(canvas, resizedDetections);
-    resizedDetections.forEach((face) => {
+    resizedDetections.forEach(async (face) => {
       const { age, gender } = face;
       const genderText = `${gender}`;
       const ageText = `${Math.round(age)} years`;
@@ -105,25 +104,24 @@ video.addEventListener("play", async () => {
     const results = resizedDetections.map((d) => {
       return faceMatcher.findBestMatch(d.descriptor);
     });
-    results.forEach((result, i) =>  {
-      const box = resizedDetections[i].detection.box;
-      let checkedEmployees = {};
-      let drawBox;
-    
-      if(result._label==="unknown"){
-        console.log("Nhân viên chưa có dữ liệu.");
-      }
-      else if (!checkedEmployees[result._label]) {
-        console.log("Nhân viên " + result._label + " đã chấm công");
-        alert("Nhân viên " + result._label + " đã được chấm công rồi.");
-        checkedEmployees[result._label] = true;
-        drawBox = new faceapi.draw.DrawBox(box, {
-            label: result,
-        });
-        drawBox.draw(canvas);
-    }
-   
-    });
   
-  }, 300);
+    results.forEach((result, i) => {
+      const box = resizedDetections[i].detection.box;
+      let drawBox;
+      if (result._label === "unknown") {
+          console.log(`Nhân viên này chưa có dữ liệu.`);
+      }
+       else if (!result._isMarked) { 
+          console.log("Nhân viên " + result._label + " đã chấm công");
+          drawBox = new faceapi.draw.DrawBox(box, {
+              label: result,
+          });
+          drawBox.draw(canvas);
+          result._isMarked = true; 
+      }
+       else{
+        console.log("Nhân viên " + result._label + " đã được chấm công trước đó.");
+    }
+  });
+  }, 100);
 });
