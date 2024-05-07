@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nhập Thông tin</title>
+    <link rel="stylesheet" href="DangKyStype.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Nhập Thông tin của bạn</h2>
+        <form method="get" id="myForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" placeholder="Nhập ID" required>
+            </div>
+            <div class="form-group">
+                <label for="hoTen">Họ tên:</label>
+                <input type="text" id="hoTen" name="hoTen" placeholder="Nhập Họ Tên" required>
+            </div>
+            <div class="form-group">
+                <label for="gioiTinh">Giới tính:</label>
+                <input type="text" id="gioiTinh" name="gioiTinh" placeholder="Nhập giới tính của bạn" required>
+            </div>
+            <div class="form-group">
+                <label for="chucVu">Chức vụ:</label>
+                <input type="text" id="chucVu" name="chucVu" placeholder="Chức vụ">
+            </div>
+            <div class="form-group">
+                <label for="hinhAnh">Hình ảnh (ít nhất 2 tấm):</label>
+                <input type="file" id="hinhAnh" name="hinhAnh" accept="image/*" multiple required onchange="showImages(event)"><br>
+                <div id="imagePreview"></div>
+                <span>Vui lòng chọn ít nhất 2 hình ảnh</span>
+            </div>
+            <button type="submit" id="btnSubmit">Thêm Nhân Viên</button><br>
+            <button type="button" id="btnComeBack">Trở về</button>
+        </form>
+    </div>
+    
+    <script src="scriptForm.js"></script>
+</body>
+</html>

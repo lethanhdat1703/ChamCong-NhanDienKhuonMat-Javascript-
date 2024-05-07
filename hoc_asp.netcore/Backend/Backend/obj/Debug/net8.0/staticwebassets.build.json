@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "US2keb/ou3Tl1KOWpWEp6Xoro1FKmGlhMeARxFJdTvw=",
+  "Source": "Backend",
+  "BasePath": "_content/Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend\\wwwroot",
+      "Source": "Backend",
+      "ContentRoot": "D:\\nhandienguongmat\\hoc_asp.netcore\\Backend\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

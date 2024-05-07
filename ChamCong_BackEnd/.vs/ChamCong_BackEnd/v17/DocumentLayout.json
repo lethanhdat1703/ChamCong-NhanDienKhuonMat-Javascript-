@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\nhandienguongmat\\ChamCong_BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\controllers\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\controllers\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\service\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\service\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\helpers\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\helpers\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\service\\timerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\service\\timerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\data\\nhandiendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\data\\nhandiendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\repository\\itimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\repository\\itimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\service\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\service\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\controllers\\timescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\controllers\\timescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\dto\\timedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\dto\\timedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\dto\\facemodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\dto\\facemodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\facemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\facemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\dto\\timekeepingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\dto\\timekeepingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\timekeeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\timekeeping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|d:\\nhandienguongmat\\chamcong_backend\\chamcong_backend.server\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6B9EBE-A18C-4AF4-8547-ED1ED4A8350E}|ChamCong_BackEnd.Server\\ChamCong_BackEnd.Server.csproj|solutionrelative:chamcong_backend.server\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Helpers\\Role.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Helpers\\Role.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Helpers\\Role.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Helpers\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:55:16.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:29:05.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Service\\AccountRepository.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\AccountRepository.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Service\\AccountRepository.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwDUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:59:43.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\appsettings.json",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\appsettings.json",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T04:19:10.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Program.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Program.cs*",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Program.cs*",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:15:10.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\SignInModel.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\SignInModel.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\SignInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:52:15.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimeController.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\TimeController.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Controllers\\TimeController.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\TimeController.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Controllers\\TimeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:02:00.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\SignUpModel.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:53:54.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T04:21:50.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T03:59:16.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\AppSettings.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\AppSettings.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T03:52:23.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITimeRepository.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Repository\\ITimeRepository.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Repository\\ITimeRepository.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Repository\\ITimeRepository.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Repository\\ITimeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T02:16:25.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TimeRepository.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\TimeRepository.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Service\\TimeRepository.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\TimeRepository.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Service\\TimeRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwCIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T09:25:07.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NhanDienDbContext.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Data\\NhanDienDbContext.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Data\\NhanDienDbContext.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Data\\NhanDienDbContext.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Data\\NhanDienDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T04:19:27.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Mapper\\MappingProfile.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Mapper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:17:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Service\\GenericRepository.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Service\\GenericRepository.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Service\\GenericRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwCcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T08:47:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TimesController.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\TimesController.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Controllers\\TimesController.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\TimesController.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Controllers\\TimesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T08:55:11.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TimeDTO.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\TimeDTO.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\DTO\\TimeDTO.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\TimeDTO.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\DTO\\TimeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T02:17:45.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Time.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Time.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\Time.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Time.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\Time.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T01:45:07.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:22:26.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FaceModelDTO.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\FaceModelDTO.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\DTO\\FaceModelDTO.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\FaceModelDTO.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\DTO\\FaceModelDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:23:32.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FaceModel.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\FaceModel.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\FaceModel.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\FaceModel.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\FaceModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:24:06.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TimeKeepingDTO.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\TimeKeepingDTO.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\DTO\\TimeKeepingDTO.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\DTO\\TimeKeepingDTO.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\DTO\\TimeKeepingDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:13:00.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Timekeeping.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Timekeeping.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\Timekeeping.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Timekeeping.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\Timekeeping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:12:07.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Unknown.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Unknown.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\Unknown.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Unknown.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\Unknown.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T01:49:27.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "ChamCong_BackEnd.Server\\Models\\Employee.cs",
+              "ToolTip": "D:\\nhandienguongmat\\ChamCong_BackEnd\\ChamCong_BackEnd.Server\\Models\\Employee.cs",
+              "RelativeToolTip": "ChamCong_BackEnd.Server\\Models\\Employee.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:37:33.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

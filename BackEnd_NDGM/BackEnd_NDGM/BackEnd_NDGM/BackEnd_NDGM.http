@@ -1,0 +1,6 @@
+@BackEnd_NDGM_HostAddress = http://localhost:5238
+
+GET {{BackEnd_NDGM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
