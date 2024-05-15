@@ -1,8 +1,0 @@
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.csproj.AssemblyReference.cache
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.GeneratedMSBuildEditorConfig.editorconfig
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.AssemblyInfoInputs.cache
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.AssemblyInfo.cs
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.csproj.CoreCompileInputs.cache
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.MvcApplicationPartsAssemblyInfo.cs
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.MvcApplicationPartsAssemblyInfo.cache
-D:\nhandienguongmat\hoc_asp.netcore\hoc_asp\hoc_asp\obj\Debug\net8.0\hoc_asp.sourcelink.json

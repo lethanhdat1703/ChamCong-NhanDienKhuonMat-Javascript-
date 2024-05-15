@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ChamCong_BackEnd.Server.props" />
-</Project>

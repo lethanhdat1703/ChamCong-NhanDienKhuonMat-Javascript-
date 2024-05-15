@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ChamCong_BackEnd.Server.props" />
-</Project>
