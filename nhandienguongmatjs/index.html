@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nhận diện khuôn mặt</title>
     <script src="face-api.min.js" defer></script>
     <script src="script.js" defer></script>
     <script src="./API.js"></script>
-    <link rel="stylesheet" href="stype.css">
-</head>
-<body>
+    <!-- <script async src="https://docs.opencv.org/master/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script> -->
+    <link rel="stylesheet" href="stype.css" />
+  </head>
+  <body>
     <div class="container">
-        <button type="submit" id="btnThem">Thêm Nhân Viên</button>
-        <div class="camera">
-            <video id="video" width="720" height="560" autoplay muted src=""></video>
-            <canvas id="canvas"></canvas>
-        </div>
-        <div>
-            <h2>Thông tin nhân viên</h2>
-            <form id="employeeDataForm">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="gender">Gender:</label>
-                    <input type="text" id="gender" name="gender" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="position">Position:</label>
-                    <input type="text" id="position" name="position" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone:</label>
-                    <input type="text" id="phone" name="phone" readonly>
-                </div>
-                <div class="form-group">
-                    <label for="department">Department:</label>
-                    <input type="text" id="department" name="department" readonly>
-                </div>
-            </form>
-        </div>
+      <button type="submit" id="btnThem">Thêm Nhân Viên</button>
+      <div class="camera">
+        <video
+          id="video"
+          width="720"
+          height="560"
+          autoplay
+          muted
+          src=""
+        ></video>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div>
+        <h2>Thông Tin Nhân Viên</h2>
+        <form id="employeeDataForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" readonly />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" readonly />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" readonly />
+          </div>
+          <div class="form-group">
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" readonly />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" readonly />
+          </div>
+          <div class="form-group">
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" readonly />
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>

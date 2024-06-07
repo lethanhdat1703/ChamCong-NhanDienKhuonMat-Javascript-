@@ -1,8 +1,6 @@
-document.getElementById("btnThem").addEventListener("click", function () {
-  window.location.href = "FormDangKy.html";
-});
-const ChamCongCheckIn = [{ labelName: {}, iChamCong: {}, timeCheckIn: {} }];
 const video = document.getElementById("video");
+
+const ChamCongCheckIn = [{ labelName: {}, iChamCong: {}, timeCheckIn: {} }];
 
 Promise.all([
   faceapi.nets.mtcnn.loadFromUri("/models"),
@@ -14,52 +12,51 @@ Promise.all([
   faceapi.nets.ageGenderNet.loadFromUri("/models"),
 ]).then(startVideo);
 
-async function startVideo() {
-  try {
-    const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-    video.srcObject = stream;
-  } catch (err) {
-    console.error("Error accessing camera:", err);
-  }
-}
-
-async function fetchEmployeeData() {
-  try {
-    const response = await fetch("https://localhost:7286/api/employee", {
-      method: "GET",
-      mode: "cors",
-      headers: {
-        "Content-Type": "application/json",
-        "X-PINGOTHER": "pingpong",
-      },
-    });
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error("Error fetching employee data:", error);
-    throw error;
-  }
+function startVideo() {
+  navigator.getUserMedia(
+    { video: {} },
+    (stream) => {
+      video.srcObject = stream;
+    },
+    (err) => console.error(err)
+  );
 }
 
 async function getLabeledFaceDescriptions() {
   const labels = await fetchEmployeeData();
+  //console.log("API nhanh vien " + labels);
+  //let dem = 0;
   return Promise.all(
     labels.map(async (label) => {
+      //console.log("label: " + label.name);
       const descriptions = [];
       for (let i = 0; i < label.faceModels.length; i++) {
         const model = label.faceModels[i];
+        //console.log("model: " + model);
+        //console.log("Model image: " + model.image);
+
+        //console.log("id nhan vien: " + label.id);
+
         if (label.id == model.employeeId) {
           for (let j = 0; j < model.image.length; j++) {
+            //console.log("jjjjjjjjj" + model.image);
             const imgUrl = "https://localhost:7286" + model.image;
-            const img = await faceapi.fetchImage(imgUrl);
+            //console.log("Url: " + imgUrl);
+            const img = await faceapi.fetchImage(imgUrl, {
+              method: "GET",
+              mode: "cors",
+              headers: {
+                "Content-Type": "application/json",
+                "X-PINGOTHER": "pingpong",
+              },
+            });
             const detections = await faceapi
               .detectSingleFace(img)
               .withFaceLandmarks()
               .withFaceDescriptor();
-            descriptions.push(detections.descriptor);
+            if (detections) {
+              descriptions.push(detections.descriptor);
+            }
           }
         }
       }
@@ -83,18 +80,12 @@ video.addEventListener("play", async () => {
 
   console.log("Success");
   setInterval(async () => {
-    // const detections = await faceapi.detectAllFaces(
-    //     video,
-    //     new faceapi
-    //         .TinyFaceDetectorOptions())
-    //         .withFaceLandmarks()
-    //         .withFaceExpressions()
-    //         .withAgeAndGender()
-    //         .withFaceDescriptors();
     if (!Paused) {
       const detections = await faceapi
         .detectAllFaces(video, new faceapi.MtcnnOptions())
         .withFaceLandmarks()
+        .withFaceExpressions()
+        .withAgeAndGender()
         .withFaceDescriptors();
 
       //console.log(detections);
@@ -141,7 +132,7 @@ video.addEventListener("play", async () => {
             if (iCheckIn == false && element.name === result._label) {
               Paused = true;
               setTimeout(async () => {
-                var checkIn = await CheckIn(element.id, new Date());
+                const checkIn = await CheckIn(element.id, new Date());
                 if (checkIn) {
                   const checkInData = {
                     labelName: element.name,
@@ -150,7 +141,7 @@ video.addEventListener("play", async () => {
                   };
                   ChamCongCheckIn.push(checkInData);
                   console.log(checkInData);
-                  console.log();
+
                   fetch(`https://localhost:7286/api/employee/${element.id}`)
                     .then((response) => {
                       if (!response.ok) {
@@ -161,7 +152,6 @@ video.addEventListener("play", async () => {
                       return response.json();
                     })
                     .then((data) => {
-                      console.log(data);
                       document.getElementById("name").value = data.name;
                       document.getElementById("email").value = data.email;
                       document.getElementById("gender").value =
@@ -173,25 +163,23 @@ video.addEventListener("play", async () => {
                     })
                     .catch((error) => console.error("Error:", error));
                 }
-                console.log("cham cong thanh cong");
+                alert(element.name + " đã check in");
                 Paused = false;
-              });
+              }, 3000);
             }
-
+            debugger;
             ChamCongCheckIn.forEach(async (check) => {
               if (
                 check.iChamCong === true &&
                 element.name === check.labelName
               ) {
-                try {
-                  await CheckOut(element.id, new Date());
-                } catch (error) {
-                  console.error("Error during checkout:", error);
-                }
+                await CheckOut(element.id, new Date());
+                console.log("Check out");
               }
             });
           });
           drawBox.draw(canvas);
+          //console.log("nhan dien thanh cong");
           dem = true;
         }
       });
